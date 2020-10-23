@@ -1,9 +1,7 @@
 package com.company;
 
-import java.util.Arrays;
-
 public class Main {
-    public static int counter =1;
+    public static int counter = 1;
 
     public static void main(String[] args) {
         Boss Thanos = new Boss();
@@ -27,15 +25,13 @@ public class Main {
             }
 
 
-
-
         }
     }
 
     public static Hero[] creatHeroes() {
-        Hero ironMan = new Hero("Iron Man",300, 30, "Firing");
-        Hero capitanAmerica = new Hero("Capitan of America",300, 20);
-        Hero halk = new Hero("Halk",600, 25, "Physical power");
+        Hero ironMan = new Hero("Iron Man", 300, 30, "Firing");
+        Hero capitanAmerica = new Hero("Capitan of America", 300, 20);
+        Hero halk = new Hero("Halk", 600, 25, "Physical power");
         return new Hero[]{ironMan, capitanAmerica, halk};
     }
 }
