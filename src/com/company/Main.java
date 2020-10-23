@@ -10,7 +10,6 @@ public class Main {
         Thanos.setHealth(700);
         System.out.println(Thanos.getDamage() + " " + Thanos.getHealth() + " " + Thanos.getTypeOfDefence());
         for (Hero temp : creatHeroes()) {
-            for (int i = 0; i < creatHeroes().length; i++) {
                 System.out.println(counter + ") HERO: ");
                 System.out.println("       Name: " + temp.getNameOfHero());
                 System.out.println("       Damage: " + temp.getDamage());
@@ -21,10 +20,6 @@ public class Main {
                 }
                 System.out.println("_____________________________");
                 counter++;
-                break;
-            }
-
-
         }
     }
 
